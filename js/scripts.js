@@ -17,7 +17,7 @@ function validateInput(e) {
      let classes;
 
      if(e.target.value.length === 0 ){
-          // input is empty, fire an alert
+         
           classes = states[1];
      } else {
           classes = states[0];
@@ -31,7 +31,7 @@ function validateInput(e) {
      // add the new class
      e.target.nextElementSibling.classList.add(classes);
 
-     // generate or remove the alert
+     
      if(classes === 'not-valid') {
           // in the case that the alert doesn't exists, add an alert
           if(e.target.parentElement.nextElementSibling.classList[0] !== 'alert' ) {
