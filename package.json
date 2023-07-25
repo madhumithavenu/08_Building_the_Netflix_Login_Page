@@ -2,13 +2,13 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
-    "gulp-sass": "^5.1.0"
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.64.1"
   },
   "name": "devflix",
   "version": "1.0.0",
   "description": "Flexbox",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
